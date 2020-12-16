@@ -31,6 +31,7 @@ Follow the following instruction from https://github.com/NVIDIA-AI-IOT/trt_pose.
 A) Hand Pose demo 
       
    - Open and follow live_hand_pose.ipynb notebook. 
+   
    ![](images/live_hand_demo.gif)
 
 B) Hand gesture recoginition (hand pose classification) 
