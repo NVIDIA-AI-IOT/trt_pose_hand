@@ -44,7 +44,7 @@ B) Hand gesture recoginition (hand pose classification)
    More gestures can be added by a simple process of creating your own dataset and training it on an svm model. 
    An SVM model weight is provided for inference.
    
-    ![](images/gesture_classification.gif)
+   ![](images/gesture_classification.gif)
         
    To make your own hand gesture classification from the hand pose estimation, follow the following steps 
         
