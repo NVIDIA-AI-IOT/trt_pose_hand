@@ -35,6 +35,9 @@ A) Hand Pose demo
    ![](images/live_hand_demo.gif)
 
 B) Hand gesture recoginition (hand pose classification) 
+
+    ![](images/gesture_classification.gif)
+    
    - Install dependecies
       - scikit-learn 
          - pip install -U scikit-learn 
