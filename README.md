@@ -70,8 +70,9 @@ B) Hand gesture recoginition (hand pose classification)
     - Open and follow the cursor_control_live_demo.ipynb notebook. 
     - This will allow you to control your mouse cursor on your desktop. It uses the hand gesture classification. 
       When your hand geture is pan, you can control the cursor. when it is click, it's left click. 
-    
-    ![](images/subway_buy.gif) 
+   | Subway Buy a tuna sandwich | Subway navigate map |
+   |-------|---------| 
+   |![](images/subway_buy.gif) | ![](images/subway_map.gif)|
     
 D) Mini-Paint
 
