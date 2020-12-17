@@ -76,6 +76,8 @@ B) Hand gesture recoginition (hand pose classification)
     
 D) Mini-Paint
 
+  A mini paint app that let's you draw, erase and clear on your camera screen. 
+
 The model was trained using the training script in trt_pose and the hand pose data collected in Nvidia.
 
 Model details: resnet18
