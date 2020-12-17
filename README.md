@@ -31,8 +31,11 @@ Follow the following instruction from https://github.com/NVIDIA-AI-IOT/trt_pose.
 A) Hand Pose demo 
       
    - Open and follow live_hand_pose.ipynb notebook. 
+   
+   ![](images/live_hand_demo.gif)
 
 B) Hand gesture recoginition (hand pose classification) 
+    
    - Install dependecies
       - scikit-learn 
          - pip install -U scikit-learn 
@@ -40,6 +43,8 @@ B) Hand gesture recoginition (hand pose classification)
    The current gesture classification model supports six classes (fist, pan, stop, fine, peace, no hand). 
    More gestures can be added by a simple process of creating your own dataset and training it on an svm model. 
    An SVM model weight is provided for inference.
+   
+   ![](images/gesture_classification.gif)
         
    To make your own hand gesture classification from the hand pose estimation, follow the following steps 
         
