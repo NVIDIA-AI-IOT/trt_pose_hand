@@ -29,7 +29,11 @@ Follow the following instruction from https://github.com/NVIDIA-AI-IOT/trt_pose.
 
 | Model | Weight |
 |-------|---------|
-| hand_pose_resnet18_baseline_att_224x224_A | [download (81MB)](https://drive.google.com/file/d/1NCVo0FiooWccDzY7hCc5MAKaoUpts3mo/view?usp=sharing) |
+| hand_pose_resnet18_baseline_att_224x224_A | [download model](https://drive.google.com/file/d/1NCVo0FiooWccDzY7hCc5MAKaoUpts3mo/view?usp=sharing) |
+
+1. Download the model weight using the link above.  
+
+2. Place the downloaded weight in the [model](model/) directory
 
 ### Step 4 - Run hand pose and it's applications 
 
