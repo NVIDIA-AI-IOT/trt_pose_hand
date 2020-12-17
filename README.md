@@ -29,7 +29,11 @@ Follow the following instruction from https://github.com/NVIDIA-AI-IOT/trt_pose.
 
 | Model | Weight |
 |-------|---------|
-| hand_pose_resnet18_baseline_att_224x224_A | [download (81MB)](https://drive.google.com/file/d/1NCVo0FiooWccDzY7hCc5MAKaoUpts3mo/view?usp=sharing) |
+| hand_pose_resnet18_baseline_att_224x224_A | [download model](https://drive.google.com/file/d/1NCVo0FiooWccDzY7hCc5MAKaoUpts3mo/view?usp=sharing) |
+
+1. Download the model weight using the link above.  
+
+2. Place the downloaded weight in the [model](model/) directory
 
 ### Step 4 - Run hand pose and it's applications 
 
@@ -45,6 +49,7 @@ B) Hand gesture recoginition (hand pose classification)
       - scikit-learn 
          - pip install -U scikit-learn 
          - or install it from the source 
+         
    The current gesture classification model supports six classes (fist, pan, stop, fine, peace, no hand). 
    More gestures can be added by a simple process of creating your own dataset and training it on an svm model. 
    An SVM model weight is provided for inference.
@@ -70,9 +75,30 @@ B) Hand gesture recoginition (hand pose classification)
     - Open and follow the cursor_control_live_demo.ipynb notebook. 
     - This will allow you to control your mouse cursor on your desktop. It uses the hand gesture classification. 
       When your hand geture is pan, you can control the cursor. when it is click, it's left click. 
-
+   | Buying a tuna sandwich :) | navigating map |
+   |-------|---------| 
+   |![](images/subway_buy.gif) | ![](images/subway_map.gif)|
+    
 D) Mini-Paint
 
+  A mini paint app that let's you draw, erase and clear on your camera screen. 
+  
+-------------------------------------------------------------------------------------------------------------------------------------
 The model was trained using the training script in trt_pose and the hand pose data collected in Nvidia.
 
 Model details: resnet18
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## See also
+
+- [trt_pose](https://github.com/NVIDIA-AI-IOT/trt_pose) - Real-time pose estimation accelerated with NVIDIA TensorRT
+- [deepstream_pose_estimation](https://github.com/NVIDIA-AI-IOT/deepstream_pose_estimation) - [trt_pose](https://github.com/NVIDIA-AI-IOT/trt_pose) deepstream integration
+- [ros2_trt_pose](https://github.com/NVIDIA-AI-IOT/ros2_trt_pose) - ROS 2 package for "trt_pose": real-time human pose estimation on NVIDIA Jetson Platform
+- [torch2trt](http://github.com/NVIDIA-AI-IOT/torch2trt) - An easy to use PyTorch to TensorRT converter
+
+## References
+
+Cao, Zhe, et al. "Realtime multi-person 2d pose estimation using part affinity fields." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017.
+
+Xiao, Bin, Haiping Wu, and Yichen Wei. "Simple baselines for human pose estimation and tracking." Proceedings of the European Conference on Computer Vision (ECCV). 2018.
