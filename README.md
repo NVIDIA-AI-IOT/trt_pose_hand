@@ -49,6 +49,7 @@ B) Hand gesture recoginition (hand pose classification)
       - scikit-learn 
          - pip install -U scikit-learn 
          - or install it from the source 
+         
    The current gesture classification model supports six classes (fist, pan, stop, fine, peace, no hand). 
    More gestures can be added by a simple process of creating your own dataset and training it on an svm model. 
    An SVM model weight is provided for inference.
