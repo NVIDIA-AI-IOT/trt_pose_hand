@@ -70,14 +70,30 @@ B) Hand gesture recoginition (hand pose classification)
     - Open and follow the cursor_control_live_demo.ipynb notebook. 
     - This will allow you to control your mouse cursor on your desktop. It uses the hand gesture classification. 
       When your hand geture is pan, you can control the cursor. when it is click, it's left click. 
-   | Subway Buy a tuna sandwich | Subway navigate map |
+   | Buying a tuna sandwich :) | navigating map |
    |-------|---------| 
    |![](images/subway_buy.gif) | ![](images/subway_map.gif)|
     
 D) Mini-Paint
 
   A mini paint app that let's you draw, erase and clear on your camera screen. 
-
+  
+-------------------------------------------------------------------------------------------------------------------------------------
 The model was trained using the training script in trt_pose and the hand pose data collected in Nvidia.
 
 Model details: resnet18
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## See also
+
+- [trt_pose](https://github.com/NVIDIA-AI-IOT/trt_pose) - Real-time pose estimation accelerated with NVIDIA TensorRT
+- [deepstream_pose_estimation](https://github.com/NVIDIA-AI-IOT/deepstream_pose_estimation) - [trt_pose](https://github.com/NVIDIA-AI-IOT/trt_pose) deepstream integration
+- [ros2_trt_pose](https://github.com/NVIDIA-AI-IOT/ros2_trt_pose) - ROS 2 package for "trt_pose": real-time human pose estimation on NVIDIA Jetson Platform
+- [torch2trt](http://github.com/NVIDIA-AI-IOT/torch2trt) - An easy to use PyTorch to TensorRT converter
+
+## References
+
+Cao, Zhe, et al. "Realtime multi-person 2d pose estimation using part affinity fields." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017.
+
+Xiao, Bin, Haiping Wu, and Yichen Wei. "Simple baselines for human pose estimation and tracking." Proceedings of the European Conference on Computer Vision (ECCV). 2018.
