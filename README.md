@@ -71,7 +71,7 @@ B) Hand gesture recoginition (hand pose classification)
     - This will allow you to control your mouse cursor on your desktop. It uses the hand gesture classification. 
       When your hand geture is pan, you can control the cursor. when it is click, it's left click. 
     
-    ![](images/subway_buy.gif) ![](images/subway_map.gif)
+    ![](images/subway_buy.gif) 
     
 D) Mini-Paint
 
