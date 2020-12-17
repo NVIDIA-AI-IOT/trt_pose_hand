@@ -1,1 +1,1 @@
-{"paint": ["clear","draw", "click", "zoom", "erase", "no hand", "no hand"], "mouse": ["drag","pan", "click", "zoom", "scroll", "no hand", "no hand"], "classes": ["fist","pan", "stop", "peace", "ok", "no hand", "no hand"]}
+{"paint": ["clear","draw", "click", "line", "erase", "no hand", "no hand"], "mouse": ["drag","pan", "click", "zoom", "scroll", "no hand", "no hand"], "classes": ["fist","pan", "stop", "peace", "ok", "no hand", "no hand"]}
