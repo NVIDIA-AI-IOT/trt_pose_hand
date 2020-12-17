@@ -25,8 +25,13 @@ Follow the following instruction from https://github.com/NVIDIA-AI-IOT/trt_pose.
       
     pip install traitlets
      
+### Step 3 - Download model wieght
 
-### Step 3 - Run hand pose and it's applications 
+| Model | Weight |
+|-------|---------|
+| hand_pose_resnet18_baseline_att_224x224_A | [download (81MB)](https://drive.google.com/file/d/1NCVo0FiooWccDzY7hCc5MAKaoUpts3mo/view?usp=sharing) |
+
+### Step 4 - Run hand pose and it's applications 
 
 A) Hand Pose demo 
       
