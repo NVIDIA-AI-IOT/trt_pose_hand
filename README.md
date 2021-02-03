@@ -52,7 +52,7 @@ B) Hand gesture recoginition (hand pose classification)
          
    The current gesture classification model supports six classes (fist, pan, stop, fine, peace, no hand). 
    More gestures can be added by a simple process of creating your own dataset and training it on an svm model. 
-   An SVM model weight is provided for inference.
+   An SVM model weight (svmmodel.sav) is provided for inference. 
    
    ![](images/gesture_classification.gif)
         
