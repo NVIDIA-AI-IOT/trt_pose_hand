@@ -19,7 +19,7 @@ This project is an extention of TRT Pose for Hand Pose Detection. The project in
 ### Step 1 - Install trt_pose and it's dependencies 
 
 Make sure to follow all the instructions from trt_pose and install all it's depenedencies. 
-Follow the following instruction from https://github.com/NVIDIA-AI-IOT/trt_pose. 
+Follow step 1 and step 2 from https://github.com/NVIDIA-AI-IOT/trt_pose. 
 
 ### Step 2 - Install dependecies for hand pose 
       
@@ -52,7 +52,7 @@ B) Hand gesture recoginition (hand pose classification)
          
    The current gesture classification model supports six classes (fist, pan, stop, fine, peace, no hand). 
    More gestures can be added by a simple process of creating your own dataset and training it on an svm model. 
-   An SVM model weight is provided for inference.
+   An SVM model weight (svmmodel.sav) is provided for inference. 
    
    ![](images/gesture_classification.gif)
         
